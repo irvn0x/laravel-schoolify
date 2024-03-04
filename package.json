@@ -11,6 +11,7 @@
         "bootstrap": "^5.2.3",
         "laravel-vite-plugin": "^1.0.0",
         "sass": "^1.56.1",
-        "vite": "^5.0.0"
+        "vite": "^5.0.0",
+        "spatie/laravel-permission": "5.10.0"
     }
 }
