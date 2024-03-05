@@ -82,11 +82,11 @@
                         @endcan
 
                         @can('categories.index')
-                        <li class="{{ setActive('admin/category') }}"><a class="nav-link" href="#"><i
-                                    class="fas fa-folder"></i>
-                                <span>Kategori</span></a></li>
+                        <li class="{{ setActive('admin/category') }}"><a class="nav-link"
+                                href="{{ route('admin.category.index') }}"><i class="fas fa-folder"></i>
+                                <span>Kategori</span></a>
+                        </li>
                         @endcan
-
                         @can('events.index')
                         <li class="{{ setActive('admin/event') }}"><a class="nav-link" href="#"><i
                                     class="fas fa-bell"></i>
